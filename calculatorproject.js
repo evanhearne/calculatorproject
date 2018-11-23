@@ -1,5 +1,6 @@
 function addNumberToDisplay(number) {
-  // Function Implementation...
-}
+var displayScreen = document.getElementById('displayScreen');
+var displayScreenValue = displayScreen.value;
+displayScreen.value = displayScreenValue + number;
 
-displayScreen.value = number;
+}
