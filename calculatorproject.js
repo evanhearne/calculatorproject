@@ -16,3 +16,8 @@ function evaluateEquation() {
 	var evaluateEquation = eval(displayScreen.value)
     displayScreen.value = evaluateEquation;
 }
+
+function deleteFromDisplay() {
+	var displayScreen = document.getElementById('displayScreen')
+	displayScreen.value = "";
+}
